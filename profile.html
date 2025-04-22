@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="profile-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="profile-actions">
+                        <a href="#" class="profile-action">
+                            <i class="bi bi-people-fill"></i> Connect
+                        </a>
+                        <a href="index.html" class="profile-action float-end">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container profile-container">
+        <div class="card profile-card">
+            <div class="profile-image-wrapper">
+                <img src="assets/icon.svg" class="profile-image" alt="Profile Image">
+            </div>
+            
+            <div class="card-body text-center pt-2">
+                <h1 class="profile-name">John Doe</h1>
+                <p class="profile-location">Sorsogon City</p>
+                
+                <div class="profile-occupation">
+                    <p class="mb-1">Web Developer - UI/UX Designer</p>
+                    <p class="mb-4 text-muted small">Bicol University</p>
+                </div>
+                
+                <div class="profile-stats">
+                    <div class="row justify-content-center">
+                        <div class="col-4 stat-item">
+                            <h2>65</h2>
+                            <p>Friends</p>
+                        </div>
+                        <div class="col-4 stat-item">
+                            <h2>43</h2>
+                            <p>Photos</p>
+                        </div>
+                        <div class="col-4 stat-item">
+                            <h2>21</h2>
+                            <p>Comments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-info bg-light rounded-4 px-4 py-3 m-3 m-md-4 m-lg-5 text-start shadow-sm">
+                  <p class="mb-2"><strong>Full Name:</strong> Johnathan A. Doe</p>
+                  <p class="mb-2"><strong>Email:</strong> johndoe@example.com</p>
+                  <p class="mb-0"><strong>Phone:</strong> +63 912 345 6789</p>
+              </div>
+              
+                
+                <div class="mt-4">
+                    <button class="btn btn-primary rounded-pill px-4">Show more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
